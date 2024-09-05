@@ -6,9 +6,9 @@ import pandas as pd
 import numpy as np
 from scipy import interpolate
 from swarm_interaction_network.opt.callbacks import Callback
-from swarm_parser import SwarmParser
-from influence_graph import InfluenceGraph
-from giant_component_analysis import GiantComponentDeath
+from swarm_interaction_network.swarm_parser import SwarmParser
+from swarm_interaction_network.influence_graph import InfluenceGraph
+from swarm_interaction_network.giant_component_analysis import GiantComponentDeath
 
 
 class SwarmAnalyzer:
